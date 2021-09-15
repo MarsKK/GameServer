@@ -9,7 +9,7 @@ namespace GameServer
     {
         static void Main(string[] args)
         {
-            Server server = new Server("172.16.12.44", 13000);
+            Server server = new Server("127.0.0.1", 13000);
             server.Start();
         }
     }
